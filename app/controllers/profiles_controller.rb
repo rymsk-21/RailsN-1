@@ -20,3 +20,4 @@ class ProfilesController < ApplicationController
       where(skills: { user_id: @user.id } )
   end
 end
+
